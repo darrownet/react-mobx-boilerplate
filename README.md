@@ -57,7 +57,7 @@ Once the .env and .env.default files are created run **npm start**
 
 ###### production mode (mostly for developing the server)
 - Set the NODE_ENV in the .env file to production
-- Run the command **npm run build** (VERY IMPORTANT! You will not be able to test a production scenario if you don not run a build first.)
+- Run the command **npm run build** (VERY IMPORTANT! You will not be able to test a production scenario if you do not run a build first.)
 - Run the command **npm run server**
 - Open browser window at **localhost:3005/** to preview the application in production mode
 - When making changes to server.js the server should restart automatically
