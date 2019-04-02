@@ -1,0 +1,16 @@
+-const webpackDevServer = (self ? self.htmlWebpackPlugin.options.data.webpackDevServer : false);
+<!DOCTYPE html>
+html
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        title POC
+        if process.env.NODE_ENV === 'production'
+            link(href='css/main.css', rel='stylesheet')
+
+    body
+        div(id='root')
+        if process.env.NODE_ENV === 'production'
+            script(type='text/JavaScript', src='/js/bundle.min.js')
+        if process.env.NODE_ENV === 'development' && !webpackDevServer
+            script(type='text/JavaScript', src='http://localhost:3030/main.js')
