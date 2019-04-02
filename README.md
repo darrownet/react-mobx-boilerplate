@@ -5,7 +5,8 @@ A modest boilerplate for the aspiring developer who would like to implement Mobx
 
 ## Developer Requirements
 + Node 8.12.0 or higher  
-+ NPM 6.4.1 or higher  
++ NPM 6.4.1 or higher 
++ Yarn 1.13.0 or higher (optional)
 + Operating System: Mac OSX 10.10 or higher/Windows 7 or higher  
 
 ---
