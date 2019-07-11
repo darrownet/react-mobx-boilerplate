@@ -1,5 +1,5 @@
 # React Mobx Boilerplate
-A modest boilerplate for the aspiring developer who would like to implement Mobx for application level state management.
+A modest boilerplate for those who would like to implement Mobx for application level state management.
 
 ---
 
